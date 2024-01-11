@@ -17,7 +17,6 @@ float: right;
 width: 64px;
 height: 64px;
 background: url('fractyl.png') no-repeat center;
-position:absolute;
 }
 
 .full {
