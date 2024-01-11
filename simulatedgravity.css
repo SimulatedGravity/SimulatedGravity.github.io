@@ -12,7 +12,16 @@ body {
   font-family:Verdana, sans-serif;
 }
 
+ #back-button { 
+float: right;
+width: 64px;
+height: 64px;
+background: url('fractyl.png') no-repeat center;
+position:absolute;
+}
+
 .full {
+  position:relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,11 +56,3 @@ img {height:200px;}
 .games {background-color:#324}
 .ptg {background-color:#432}
 .other {background-color:#423}
-
- #back-button { 
-float: right;
-width: 64px;
-height: 64px;
-background: url('fractyl.png') no-repeat center;
-position:absolute;
-}
