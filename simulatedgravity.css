@@ -1,3 +1,4 @@
+#back-button { float: right; width: 38px; height: 38px; background: url('fractyl.png') no-repeat center }
 html {
    margin: 0;
    height: 100%;
