@@ -20,7 +20,7 @@ background: url('fractyl.png') no-repeat center;
 }
 
 .full {
-  position:relative;
+  position:absolute;
   display: flex;
   align-items: center;
   justify-content: center;
