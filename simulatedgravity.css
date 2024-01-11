@@ -48,4 +48,4 @@ img {height:200px;}
 .ptg {background-color:#432}
 .other {background-color:#423}
 
-  #back-button { float: right; width: 64px; height: 64px; background: url('fractyl.png') no-repeat center }
+back-button { float: right; width: 64px; height: 64px; background: url('fractyl.png')}
