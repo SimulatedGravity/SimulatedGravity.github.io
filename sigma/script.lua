@@ -1,5 +1,5 @@
 local header = get("h1")
-header.set_contents("what the sigma")
+header.set_contents("0")
 
 get("button").on_click(function()
 	print("why no work")
