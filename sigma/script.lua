@@ -1,5 +1,6 @@
 local header = get("h1")
 
 get("button").on_click(function()
-	header.set_contents(math.random(1,100))
+	print("why no work")
+	header.set_contents(math.random(1,100).tostring())
 end)
