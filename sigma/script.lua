@@ -1,3 +1,5 @@
+print("this is a certified hood classic")
+
 local h1 = get("h1")
 h1.set_contents("0")
 
