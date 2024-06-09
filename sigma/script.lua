@@ -1,9 +1,5 @@
-print("test1")
-local h1 = get("header")
-print("test2")
-h1.set_content("0")
-print("test3")
+local response = get("response")
 
 get("btn").on_click(function()
-	h1.set_content(tostring(math.random(1,100)))
+	response.set_content("nice try, you dont have admin rights")
 end)
