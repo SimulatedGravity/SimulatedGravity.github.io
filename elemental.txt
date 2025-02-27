@@ -1,0 +1,52 @@
+**CATEGORIES**
+
+red|#f00
+blue|#10f
+green|#381
+abstract|#888
+yellow|#ff0
+purple|#80f
+
+**BASIC_ELEMENTS**
+
+red|red
+blue|blue
+green|green
+object|abstract
+
+**ELEMENTS**
+
+player1|red
+player2|blue
+cuby|blue
+evil cuby|red
+green box|green
+red box|red
+blue box|blue
+purple box|purple
+
+**FORMULAE**
+
+red + object = player1
+blue + player1 = player2
+blue + object = cuby
+red + cuby = evil cuby
+red + blue = purple
+green + object = green box
+
+green box + red = red box
+green box + blue = blue box
+green box + green = green box
+green box + purple = purple box
+red box + red = red box
+red box + blue = blue box
+red box + green = green box
+red box + purple = purple box
+blue box + red = red box
+blue box + blue = blue box
+blue box + green = green box
+blue box + purple = purple box
+purple box + red = red box
+purple box + blue = blue box
+purple box + green = green box
+purple box + purple = purple box
