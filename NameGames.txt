@@ -449,3 +449,42 @@ c:
 v:index:1
 endf
 f-start
+
+f:enter3
+c:
+f-saveNumber1
+
+p:""
+f-showString1
+p:""
+f-showString2
+p:"is"
+f-showNumber1
+p:"years"
+p:"old"
+endf
+
+f:enter2
+c:
+f-saveString2
+f-start
+p:"how old are you?"
+f-showKeypad
+b:"enter":enter3
+p:""
+endf
+
+f:enter1
+c:
+f-saveString1
+f-start
+p:"what is your last name?"
+f-showKeyboard
+b:"enter":enter2
+p:""
+endf
+
+p:"what is your first name?"
+f-showKeyboard
+b:"enter":enter1
+p:""
